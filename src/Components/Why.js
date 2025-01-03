@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
           <div className="feature" key={index}>
             <div className="icons">{feature.icon}</div>
             <h3>{feature.title}</h3>
-            <p>{feature.description}</p>
+            <p style={{fontWeight:'500',color:"black"}}>{feature.description} </p>
           </div>
         ))}
       </div>
