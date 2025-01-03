@@ -1,0 +1,38 @@
+.GalleryVideo {
+    width: 100%; /* Default to full width */
+}
+
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .GalleryVideo {
+    width: 100%; /* Maintain full width for tablets */
+  }
+}
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  .GalleryVideo {
+    width: 100%; /* Keep full width on mobile screens */
+  }
+}
+
+/* Small Mobile View (max-width: 570px) */
+@media (max-width: 570px) {
+  .GalleryVideo {
+    width: 100%; /* Ensure full width for small mobile screens */
+  }
+}
+
+/* Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .GalleryVideo {
+    width: 100%; /* Keep full width for very small screens */
+  }
+}
+
+/* Extra Small Mobile View (max-width: 360px) */
+@media (max-width: 360px) {
+  .GalleryVideo {
+    width: 100%; /* Full width for extra small mobile screens */
+  }
+}

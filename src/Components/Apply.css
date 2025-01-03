@@ -1,0 +1,198 @@
+/* Full-page background styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply Form Container */
+.apply-form-container {
+  max-width: 550px;
+  width: 100%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apply-form-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.apply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  font-size: 14px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-apply {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-apply:hover {
+  background: linear-gradient(135deg, #0056b3, #003f7f);
+  transform: translateY(-2px); /* Adds a hover lift effect */
+}
+
+.btn-apply:active {
+  transform: translateY(0); /* Reset button on click */
+}
+
+/* Responsive Styles */
+
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .apply-form-container {
+    max-width: 80%; /* Adjust width for tablet view */
+    margin-top: 80px; /* Adjust margin for better spacing */
+    padding: 25px; /* Slightly reduce padding */
+  }
+
+  .apply-form-container h2 {
+    font-size: 28px; /* Reduce heading size */
+  }
+
+  .btn-apply {
+    width: 100%; /* Full width for button */
+  }
+}
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  .apply-form-container {
+    max-width: 90%; /* Increase container width on mobile */
+    margin-top: 70px; /* Adjust top margin for mobile */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .apply-form-container h2 {
+    font-size: 24px; /* Adjust heading size for smaller screens */
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 13px; /* Adjust input text size */
+  }
+
+  .btn-apply {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 14px; /* Reduce button font size */
+  }
+}
+
+/* Small Mobile View (max-width: 576px) */
+@media (max-width: 576px) {
+  .apply-form-container {
+    max-width: 95%; /* Make the form container almost full width */
+    margin-top: 60px; /* Further reduce top margin */
+  }
+
+  .apply-form-container h2 {
+    font-size: 22px; /* Adjust heading size for small screens */
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px; /* Adjust input text size for small screens */
+  }
+
+  .btn-apply {
+    padding: 8px 16px; /* Smaller button padding */
+    font-size: 13px; /* Adjust button font size */
+  }
+}
+
+/* Very Small Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .apply-form-container {
+    max-width: 92%; /* Form container takes up most of the screen */
+    margin-top: 50px; /* Slightly reduce top margin */
+    padding: 16px; /* Reduce padding further */
+  }
+
+  .apply-form-container h2 {
+    font-size: 20px; /* Adjust heading for very small screens */
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 12px; /* Further reduce input font size */
+  }
+
+  .btn-apply {
+    width: 100%; /* Full width button on very small screens */
+    padding: 10px 0; /* Ensure button fills the width */
+    font-size: 14px; /* Adjust button font size */
+  }
+}
+
+/* Extra Small Mobile View (max-width: 360px) */
+@media (max-width: 360px) {
+  .apply-form-container {
+    max-width: 95%; /* Make the form container as wide as possible */
+    margin-top: 40px; /* Further reduce the top margin */
+  }
+
+  .apply-form-container h2 {
+    font-size: 18px; /* Reduce the heading for very small screens */
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 11px; /* Further reduce input size */
+  }
+
+  .btn-apply {
+    font-size: 12px; /* Make the button text smaller */
+    padding: 8px 0; /* Reduce button height */
+  }
+}

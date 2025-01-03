@@ -1,0 +1,158 @@
+.digital-card {
+  
+  color: rgb(255, 253, 253);
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 500px; /* Max width for larger screens */
+  margin-left: 100px;
+  font-family: "Arial", sans-serif;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.149);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 0px solid rgba(255, 255, 255, 0.93);
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.digital-card h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.digital-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.know-more-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.know-more-btn:hover {
+  background-color: rgb(251, 21, 21);
+  color: #ece4e4;
+}
+
+/* Responsive Styles */
+
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .digital-card {
+    margin-left: 20px; /* Adjust left margin for smaller screens */
+    max-width: 90%; /* Make the card take up more space on tablets */
+  }
+
+  .digital-card h1 {
+    font-size: 24px; /* Slightly smaller heading */
+  }
+
+  .digital-card p {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+
+  .know-more-btn {
+    font-size: 12px; /* Adjust button text size */
+  }
+}
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  .digital-card {
+    margin-left: 10px; /* Smaller left margin for mobile */
+    max-width: 100%; /* Make the card full-width on mobile */
+  }
+
+  .digital-card h1 {
+    font-size: 20px; /* Adjust heading size */
+  }
+
+  .digital-card p {
+    font-size: 14px; /* Adjust paragraph size */
+  }
+
+  .know-more-btn {
+    padding: 8px 16px; /* Adjust button padding */
+    font-size: 12px; /* Adjust button font size */
+  }
+}
+
+/* Small Mobile View (max-width: 576px) */
+@media (max-width: 576px) {
+  .digital-card {
+    margin-left: 5px; /* Even smaller margin for very small screens */
+    padding: 15px 20px; /* Adjust padding for small screens */
+    width: 96%;
+  }
+
+  .digital-card h1 {
+    font-size: 18px; /* Adjust heading size for small screens */
+  }
+
+  .digital-card p {
+    font-size: 13px; /* Adjust paragraph size */
+  }
+
+  .know-more-btn {
+    padding: 6px 12px; /* Smaller button padding */
+    font-size: 10px; /* Smaller button font size */
+  }
+}
+
+/* Extra Small Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .digital-card {
+    margin-left: 10px; /* Even smaller margin */
+    padding: 12px 15px; /* Adjust padding */
+    width: 96%;
+  }
+
+  .digital-card h1 {
+    font-size: 16px; /* Smaller heading */
+  }
+
+  .digital-card p {
+    font-size: 12px; /* Smaller paragraph text */
+  }
+
+  .know-more-btn {
+    padding: 5px 10px; /* Small padding for button */
+    font-size: 9px; /* Adjust font size for button */
+  }
+}
+
+/* Very Small Mobile View (max-width: 360px) */
+@media (max-width: 360px) {
+  .digital-card {
+    margin-left: 5px; /* Remove margin */
+    padding: 10px 10px; /* Very small padding */
+    width: 96%;
+  }
+
+  .digital-card h1 {
+    font-size: 14px; /* Smaller heading */
+  }
+
+  .digital-card p {
+    font-size: 11px; /* Smaller paragraph text */
+  }
+
+  .know-more-btn {
+    padding: 4px 8px; /* Smaller button padding */
+    font-size: 8px; /* Smaller button text */
+  }
+}

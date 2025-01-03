@@ -1,0 +1,131 @@
+/* Base styles for large screens (default styles) */
+.customermain {
+  display: flex;
+  flex-wrap: wrap; /* Allow the content to wrap on smaller screens */
+}
+
+.cherish {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.customerimg {
+  width: 300px;
+  height: 200px;
+  margin-right: 80px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  padding: 40px;
+  transition: box-shadow 0.3s ease;
+}
+
+.customerimg:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+/* 1024px (tablets) */
+@media (max-width: 1024px) {
+  .customermain {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .customerimg {
+    width: 250px;
+    height: 180px;
+    margin: 20px auto;
+  }
+
+  .cherish {
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+/* 768px (small tablets) */
+@media (max-width: 768px) {
+  .customermain {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .customerimg {
+    width: 200px;
+    height: 150px;
+    margin: 20px auto;
+  }
+
+  .cherish {
+    font-size: 1.3em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+/* 576px (large phones) */
+@media (max-width: 576px) {
+  .customermain {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .customerimg {
+    width: 180px;
+    height: 130px;
+    margin: 15px auto;
+  }
+
+  .cherish {
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+/* 480px (small phones) */
+@media (max-width: 480px) {
+  .customermain {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .customerimg {
+    width: 160px;
+    height: 120px;
+    margin: 10px auto;
+  }
+
+  .cherish {
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 1px;
+  }
+}
+
+/* 360px (very small screens) */
+@media (max-width: 360px) {
+  .customermain {
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .customerimg {
+    width: 180px;
+    height: 150px;
+    margin: 5px auto;
+  }
+
+  .cherish {
+    font-size: 1em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}

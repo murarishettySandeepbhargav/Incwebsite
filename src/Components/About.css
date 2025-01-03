@@ -1,0 +1,151 @@
+.Team {
+  width: 100%;
+  height: 600px; /* Default height for larger screens */
+  margin-top: 50px; /* Default top margin */
+  margin-bottom: 100px; /* Default bottom margin */
+}
+
+.About {
+  background: rgb(0, 0, 0)
+}
+
+.Abouthead {
+  position: relative;
+}
+
+.Aboutinner {
+  position: absolute;
+  width: 900px;
+  top: 200px;
+  left: 10px;
+  text-align: center;
+}
+
+.Abouttitle {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: #ebf4f4;
+}
+
+.Aboutimg {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+/* Responsive Styles */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .Team {
+    height: 500px; /* Reduce height for tablets */
+    margin-top: 40px; /* Reduce top margin for tablets */
+    margin-bottom: 80px; /* Reduce bottom margin for tablets */
+  }
+
+  .Aboutinner {
+    width: 750px; /* Adjust width for smaller screens */
+    top: 150px; /* Adjust vertical position for smaller screens */
+  }
+
+  .Abouttitle {
+    font-size: 55px; /* Adjust title size for tablets */
+  }
+
+  .Aboutimg {
+    height: 400px; /* Reduce image size */
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .Team {
+    height: 400px; /* Further reduce height for mobile */
+    margin-top: 30px; /* Further reduce top margin for mobile */
+    margin-bottom: 60px; /* Further reduce bottom margin for mobile */
+  }
+
+  .Aboutinner {
+    width: 90%; /* Adjust width for smaller screens */
+    top: 100px; /* Move the content higher */
+  }
+
+  .Abouttitle {
+    font-size: 40px; /* Further reduce title size for smaller screens */
+  }
+
+  .Aboutimg {
+    height: 300px; /* Further reduce image size */
+  }
+}
+
+/* Medium Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+  .Team {
+    height: 350px; /* Further reduce height for small mobile */
+    margin-top: 20px; /* Reduce top margin even further */
+    margin-bottom: 50px; /* Reduce bottom margin */
+  }
+
+  .Aboutinner {
+    width: 80%; /* Even smaller width for very small screens */
+    top: 80px; /* Move the content further up */
+  }
+
+  .Abouttitle {
+    font-size: 35px; /* Smaller title size for small mobile screens */
+  }
+
+  .Aboutimg {
+    height: 250px; /* Small image for very small screens */
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .Team {
+    height: 300px; /* Smallest height for very small screens */
+    margin-top: 15px; /* Small top margin */
+    margin-bottom: 40px; /* Small bottom margin */
+  }
+
+  .Aboutinner {
+    width: 70%; /* Reduce width further */
+    top: 100px; /* Move the content up more */
+  }
+
+  .Abouttitle {
+    font-size: 12px; /* Very small title size */
+    width: 80%;
+  }
+
+  .Aboutimg {
+    height: 200px; /* Small image for very small mobile */
+  }
+}
+
+/* Extra Small Mobile (max-width: 360px) */
+@media (max-width: 360px) {
+  .Team {
+    height: 250px; /* Ultra small height */
+    margin-top: 10px; /* Ultra small top margin */
+    margin-bottom: 30px; /* Ultra small bottom margin */
+  }
+
+  .Aboutinner {
+    width: 60%; /* Minimal width for very small screens */
+    top: 100px; /* Move the content as high as possible */
+  }
+
+  .Abouttitle {
+    font-size: 25px; /* Ultra small title for tiny screens */
+  }
+
+  .Aboutimg {
+    height: 180px; /* Extremely small image size */
+  }
+  .Abouttitle {
+    font-size: 12px; /* Very small title size */
+    width: 80%;
+  }
+}

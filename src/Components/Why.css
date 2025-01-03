@@ -1,0 +1,154 @@
+/* General Styles for Why Choose Us Section */
+.why-choose-us {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap; /* Allow wrapping for smaller screens */
+  gap: 20px; /* Space between items */
+}
+
+/* Feature Box Styles */
+.feature {
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+ /* From https://css.glass */
+background: rgba(255, 255, 255, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.4px);
+-webkit-backdrop-filter: blur(1.4px);
+border: 1px solid rgba(255, 255, 255, 0.02);
+  padding: 35px;
+  transition: box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.feature:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.icons {
+  font-size: 40px;
+  color: orange;
+  mix-blend-mode: darken;
+}
+
+
+h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  color: #f5f1f1;
+}
+
+/* Responsive Styles */
+
+/* For Large Screens (1024px and above) */
+@media (max-width: 1024px) {
+  .features {
+    justify-content: space-evenly; /* Even space distribution */
+  }
+  
+  .feature {
+    width: 350px; /* Slightly smaller feature boxes */
+    padding: 30px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
+/* For Medium Screens (768px and below) */
+@media (max-width: 768px) {
+  .features {
+    justify-content: center; /* Center the items */
+  }
+
+  .feature {
+    width: 300px; /* Reduce feature box width */
+    padding: 25px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/* For Small Screens (576px and below) */
+@media (max-width: 576px) {
+  .features {
+    justify-content: center; /* Center content */
+  }
+
+  .feature {
+    width: 240px; /* Even smaller width for feature boxes */
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/* For Very Small Screens (480px and below) */
+@media (max-width: 480px) {
+  .features {
+    flex-direction: column; /* Stack feature boxes vertically */
+    align-items: center; /* Center the items */
+  }
+
+  .feature {
+    width: 100%; /* Full width on mobile */
+    padding: 20px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/* For Extra Small Screens (360px and below) */
+@media (max-width: 360px) {
+  .features {
+    flex-direction: column; /* Stack feature boxes vertically */
+    align-items: center; /* Center the items */
+  }
+
+  .feature {
+    width: 100%; /* Full width on very small screens */
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 12px; /* Smaller text size */
+  }
+
+  p {
+    font-size: 10px; /* Smaller paragraph text */
+  }
+}

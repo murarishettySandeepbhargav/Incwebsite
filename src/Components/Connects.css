@@ -1,0 +1,226 @@
+/* General Container */
+.connects-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: rgb(0,0,0)
+}
+
+/* Title Section */
+.connect-title {
+  text-align: center;
+  margin: 40px 0;
+}
+.locate{
+  color: black;
+}
+
+.connect {
+  font-weight: bolder;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 40px;
+  color: white;
+}
+
+/* Connect Head Section */
+.Connecthead {
+  position: relative;
+}
+
+.Connectinner {
+  position: absolute;
+  width: 100%; /* Adjust width to 100% for responsiveness */
+  top: 200px;
+  left: 10px;
+  text-align: center;
+}
+
+.Connecttitle {
+  font-size: 70px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+.Connectimg {
+  height: 500px;
+  width: 100%;
+  object-fit: cover; /* Ensures the image covers the area */
+}
+
+.Connectpara {
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+}
+
+/* Labs Description */
+.labs-description {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 20px auto;
+  max-width: 800px;
+}
+.labs-description p{
+  color: white;
+}
+
+/* Locations and Form Container */
+.locations-and-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+/* Locations Section */
+.locations {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin-top: 50px;
+}
+
+.location {
+  border: 1px solid silver;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(245, 239, 239);
+}
+
+.location h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contact-number {
+  color: red;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Contact Form Section */
+.contact-form-wrapper {
+  flex: 1 1 300px;
+  max-width: 600px;
+}
+
+/* Responsive Styles */
+
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .connect {
+    font-size: 2.2rem; /* Slightly smaller font size for tablets */
+  }
+
+  .labs-description {
+    font-size: 1.1rem; /* Slightly smaller font size */
+  }
+
+  .locations-and-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location {
+    width: 100%; /* Full width for locations */
+  }
+
+  .contact-form-wrapper {
+    width: 100%; /* Full width for contact form */
+  }
+}
+
+/* Tablet Portrait and Small Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  .connect {
+    font-size: 2rem; /* Adjust for smaller screens */
+  }
+
+  .labs-description {
+    font-size: 1rem; /* Adjust for readability */
+  }
+
+  .locations-and-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .location {
+    padding: 15px;
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}
+
+/* Mobile View (max-width: 576px) */
+@media (max-width: 576px) {
+  .connect {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+  }
+
+  .labs-description {
+    font-size: 0.9rem; /* Adjust font size */
+    padding: 0 10px; /* Added padding for readability */
+  }
+
+  .location {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}
+
+/* Very Small Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .connect {
+    font-size: 1.5rem; /* Adjust for very small screens */
+  }
+.Connectinner{
+  width: 90%;
+  font-size: 15px
+}
+  .labs-description {
+    font-size: 0.85rem;
+    padding: 0 10px;
+  }
+
+  .location {
+    padding: 12px;
+    font-size: 0.85rem; /* Adjust font size */
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}
+
+/* Extra Small Mobile View (max-width: 360px) */
+@media (max-width: 360px) {
+  .connect {
+    font-size: 1.3rem; /* Even smaller font size for extra small screens */
+  }
+
+  .labs-description {
+    font-size: 0.75rem; /* Further reduce font size */
+    padding: 0 5px; /* Reduced padding for smaller screens */
+  }
+
+  .location {
+    padding: 12px;
+    font-size: 0.8rem; /* Adjust font size for compact view */
+  }
+
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}

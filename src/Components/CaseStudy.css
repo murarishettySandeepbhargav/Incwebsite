@@ -1,0 +1,180 @@
+/* General Styles */
+.slick-arrow {
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 10px; /* Ensure left arrow stays inside */
+}
+
+.slick-next {
+  right: 10px; /* Ensure right arrow stays inside */
+}
+
+.carousel-containerS {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Card Styles */
+.cardS {
+  border-radius: 16px;
+  background-color: #3a3838c9;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+  color: white;
+  border-radius: 10px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  width: 90%;
+  height: auto;
+  margin: 10px;
+}
+
+.cardS:hover {
+  transform: scale(1.05); /* Adds a hover effect */
+}
+
+.card-imageS {
+  width: 80%;
+  height: 120px;
+  
+  
+
+  margin-top: 10px;
+}
+
+.card-contentS {
+  padding: 20px;
+}
+
+.card-titleS {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: rgb(250, 246, 246);
+}
+
+.card-descriptionS{
+  font-size: 16px;
+  color: #fefbfb;
+  margin-bottom: 20px;
+}
+
+.card-btnS {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card-btnS:hover {
+  background-color: #005f7f;
+}
+
+/* Arrow Styles */
+.slick-arrow {
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+.slick-prev {
+  left: -50px; /* Position the previous arrow */
+}
+
+.slick-next {
+  right: -50px; /* Position the next arrow */
+}
+
+/* Responsive Styles (for arrows as well) */
+@media (max-width: 1024px) {
+  .slick-arrow {
+    width: 35px;
+    height: 35px;
+  }
+  .carousel-containerS {
+    max-width: 1000px; /* Adjust max-width for smaller screens */
+    padding: 40px 10px; /* Adjust padding for better fit */
+  }
+}
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    width: 30px;
+    height: 30px;
+  }
+  .carousel-containerS {
+    max-width: 90%; /* Make the carousel container more flexible */
+    padding: 30px 10px; /* Reduce padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .slick-arrow {
+    width: 25px;
+    height: 25px;
+  }
+  .carousel-containerS {
+    max-width: 85%; /* Adjust max-width */
+    padding: 20px 5px; /* Reduce padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .slick-arrow {
+    width: 20px;
+    height: 20px;
+  }
+  .carousel-containerS {
+    max-width: 90%; /* Increase flexibility */
+    padding: 30px 50px; /* Adjust padding for mobile screens */
+  }
+}
+
+@media (max-width: 360px) {
+  .slick-arrow {
+    width: 20px;
+    height: 20px;
+  }
+  .carousel-containerS {
+    max-width: 98%; /* Adjust max-width for very small screens */
+    padding: 30px 50px; /* Further reduce padding */
+  }
+}

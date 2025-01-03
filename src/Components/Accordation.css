@@ -1,0 +1,128 @@
+/* Default Styles */
+.accordion {
+  width: 680px;
+  margin-left: 50px;
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.accordion-button {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.accordion-body {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.accordion-header button {
+  padding: 15px;
+}
+
+/* Tablet View (max-width: 1024px) */
+@media (max-width: 1024px) {
+  /* Adjust for tablet screens */
+  .accordion {
+    width: 100%; /* Full width on tablet screens */
+    margin-left: 10px; /* Adjust left margin */
+    margin-right: 10px; /* Adjust right margin */
+  }
+
+  .accordion-button {
+    font-size: 14px; /* Slightly smaller font size */
+  }
+
+  .accordion-body {
+    font-size: 13px; /* Smaller body font */
+  }
+
+  .accordion-header button {
+    padding: 12px; /* Adjust padding for buttons */
+  }
+}
+
+/* Mobile View (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Adjust for mobile screens */
+  .accordion {
+    width: 96%;  /* Full width on small screens */
+    margin-left: 5px; /* Smaller left margin */
+    margin-right: 5px; /* Smaller right margin */
+  }
+
+  .accordion-button {
+    font-size: 12px; /* Smaller font for mobile */
+  }
+
+  .accordion-body {
+    font-size: 12px; /* Adjust body text size */
+  }
+
+  .accordion-header button {
+    padding: 10px; /* Smaller padding for mobile */
+  }
+}
+
+/* Small Mobile View (max-width: 576px) */
+@media (max-width: 576px) {
+  .accordion {
+    width: 96%;  /* Full width for small mobile */
+    margin-left: 3px; /* Adjust for very small screens */
+    margin-right: 3px; /* Adjust for very small screens */
+  }
+
+  .accordion-button {
+    font-size: 10px; /* Further reduced font size */
+  }
+
+  .accordion-body {
+    font-size: 11px; /* Smaller text for mobile */
+  }
+
+  .accordion-header button {
+    padding: 8px; /* Adjust padding */
+  }
+}
+
+/* Very Small Mobile View (max-width: 480px) */
+@media (max-width: 480px) {
+  .accordion {
+    width: 96%;  /* Full width on very small screens */
+    margin-left: 2px; /* Minimal margin */
+    margin-right: 2px; /* Minimal margin */
+  }
+
+  .accordion-button {
+    font-size: 9px; /* Smaller button text for very small screens */
+  }
+
+  .accordion-body {
+    font-size: 10px; /* Even smaller body text */
+  }
+
+  .accordion-header button {
+    padding: 7px; /* Adjust padding for very small screens */
+  }
+}
+
+/* Extra Small Mobile View (max-width: 360px) */
+@media (max-width: 360px) {
+  .accordion {
+    width: 96%; /* Full width */
+    margin-left: 0px; /* No margin */
+    margin-right: 0px; /* No margin */
+  }
+
+  .accordion-button {
+    font-size: 8px; /* Very small font size */
+  }
+
+  .accordion-body {
+    font-size: 9px; /* Small body text */
+  }
+
+  .accordion-header button {
+    padding: 6px; /* Further adjusted button padding */
+  }
+}

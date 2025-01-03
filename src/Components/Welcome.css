@@ -1,0 +1,287 @@
+
+.card-slider-container {
+  padding-left: 120px;
+  max-width: 1400px;
+}
+
+.cards {
+  margin: 2px;
+  padding: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+  gap: 2;
+}
+
+.card-img-top {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.card-bodys {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  
+
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #fcf6f6;
+  margin-right: 20px;
+}
+
+.slick-prev,
+.slick-next {
+  background: #222222 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background: #000 !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free", sans-serif;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev:before {
+  content: "\f104";
+}
+
+.slick-next:before {
+  content: "\f105";
+}
+
+/* WelcomeBanner.css */
+.welcome-banner-container {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 25px;
+}
+
+.welcome-banner-title {
+  font-size: 3rem;
+  color: blue;
+  font-weight: bold;
+}
+
+.welcome-banner-subtitle {
+  font-size: 35px;
+  color: #f5f1f1;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+
+/* 1024px (Tablet Landscape) */
+@media (max-width: 1024px) {
+  .card-slider-container {
+    padding-left: 120px;
+  }
+
+  .card-img-top {
+    width: 250px;
+    height: 300px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .slick-prev, .slick-next {
+    width: 35px;
+    height: 35px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 0.9rem;
+  }
+
+  .welcome-banner-title {
+    font-size: 2.5rem;
+  }
+
+  .welcome-banner-subtitle {
+    font-size: 30px;
+  }
+}
+
+/* 768px (Tablet Portrait) */
+@media (max-width: 768px) {
+  .card-slider-container {
+    padding-left: 60px;
+  }
+
+  .card-img-top {
+    width: 220px;
+    height: 270px;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .slick-prev, .slick-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 0.8rem;
+  }
+
+  .welcome-banner-title {
+    font-size: 2.2rem;
+  }
+
+  .welcome-banner-subtitle {
+    font-size: 28px;
+  }
+}
+
+/* 576px (Small Tablets or Large Phones) */
+@media (max-width: 576px) {
+  .card-slider-container {
+    padding-left: 20px;
+  }
+
+  .card-img-top {
+    width: 200px;
+    height: 250px;
+  }
+
+  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    font-size: 0.75rem;
+  }
+
+  .slick-prev, .slick-next {
+    width: 25px;
+    height: 25px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 0.7rem;
+  }
+
+  .welcome-banner-title {
+    font-size: 2rem;
+  }
+
+  .welcome-banner-subtitle {
+    font-size: 24px;
+  }
+}
+
+/* 480px (Mobile Landscape) */
+@media (max-width: 480px) {
+  .card-slider-container {
+    padding-left: 10px;
+  }
+
+  .card-img-top {
+    width: 180px;
+    height: 230px;
+  }
+
+  .card-title {
+    font-size: 0.8rem;
+  }
+
+  .card-text {
+    font-size: 0.7rem;
+  }
+
+  .slick-prev, .slick-next {
+    width: 25px;
+    height: 25px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 0.7rem;
+  }
+
+  .welcome-banner-title {
+    font-size: 1.8rem;
+  }
+
+  .welcome-banner-subtitle {
+    font-size: 22px;
+  }
+}
+
+/* 360px (Mobile Portrait) */
+@media (max-width: 360px) {
+  .card-slider-container {
+    padding-left: 5px;
+  }
+
+  .card-img-top {
+    width: 90%;
+    height: 200px;
+  }
+
+  .card-title {
+    font-size: 0.7rem;
+  }
+
+  .card-text {
+    font-size: 0.65rem;
+  }
+
+  .slick-prev, .slick-next {
+    width: 20px;
+    height: 20px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 0.6rem;
+  }
+
+  .welcome-banner-title {
+    font-size: 1.6rem;
+  }
+
+  .welcome-banner-subtitle {
+    font-size: 20px;
+  }
+}
+

@@ -1,0 +1,115 @@
+/* Trending Container */
+.Trending {
+ 
+  margin-top: 100px;
+  flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+  justify-content: center; /* Center-align content on smaller screens */
+}
+
+/* Trend Heading */
+.Trend {
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Trend1 Text */
+.Trend1 {
+  width: 50%;
+  color: white;
+  font-size: 20px;
+ text-align: center;
+ align-items: center;
+ margin-left: 420px;
+  margin-top: 10px; /* Add margin to the top for spacing */
+}
+
+/* Tablet Styles (1024px and below) */
+@media (max-width: 1024px) {
+  .Trending {
+    margin-left: 40px; /* Adjust left margin for smaller screens */
+    margin-top: 80px; /* Adjust top margin */
+  }
+
+  .Trend {
+    font-size: 35px; /* Adjust font size for tablets */
+  }
+
+  .Trend1 {
+    width: 80%; /* Increase width percentage */
+    font-size: 18px; /* Adjust font size */
+    margin-left: 10%; /* Center the content */
+  }
+}
+
+/* Small Tablets and Larger Mobile Devices (768px and below) */
+@media (max-width: 768px) {
+  .Trending {
+    margin-left: 20px; /* Reduce left margin */
+    margin-top: 60px; /* Reduce top margin */
+  }
+
+  .Trend {
+    font-size: 28px; /* Adjust heading size for tablets */
+  }
+
+  .Trend1 {
+    width: 90%; /* Occupy 90% of the screen width */
+    font-size: 18px; /* Adjust paragraph font size */
+    margin-left: 5%; /* Center the text */
+  }
+}
+
+/* Mobile Styles (576px and below) */
+@media (max-width: 576px) {
+  .Trending {
+    margin-left: 10px; /* Remove left margin for small screens */
+    margin-top: 40px; /* Reduce top margin */
+  }
+
+  .Trend {
+    font-size: 24px; /* Slightly smaller heading */
+  }
+
+  .Trend1 {
+    width: 95%; /* Increase width to 95% for very small screens */
+    font-size: 16px; /* Adjust font size */
+    margin-left: 2.5%; /* Center text */
+  }
+}
+
+/* Extra Small Mobile Screens (480px and below) */
+@media (max-width: 480px) {
+  .Trending {
+    margin-left: 5px; /* Remove left margin */
+    margin-top: 30px; /* Further reduced top margin */
+  }
+
+  .Trend {
+    font-size: 22px; /* Smaller heading for mobile */
+  }
+
+  .Trend1 {
+    width: 100%; /* Full width on small screens */
+    font-size: 14px; /* Smaller text size for mobile */
+    margin-left: 0%; /* No need for left margin */
+  }
+}
+
+/* Very Small Mobile Screens (360px and below) */
+@media (max-width: 360px) {
+  .Trending {
+    margin-left: 0px; /* No margin on very small screens */
+    margin-top: 20px; /* Minimal top margin */
+  }
+
+  .Trend {
+    font-size: 18px; /* Further reduce heading size */
+  }
+
+  .Trend1 {
+    width: 100%; /* Full width on extra small screens */
+    font-size: 14px; /* Smaller text size */
+    margin-left: 0%; /* No margin for smaller screens */
+  }
+}

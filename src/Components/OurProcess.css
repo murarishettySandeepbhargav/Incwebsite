@@ -1,0 +1,98 @@
+.Process {
+  display: flex;
+  margin-left: 80px; /* Default left margin */
+  margin-bottom: 20px; /* Default bottom margin */
+  width: 90%; /* Default width */
+  height: auto; /* Ensure height is flexible */
+  margin-left: 140px; /* Adjust left margin for larger screens */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.Process1 {
+  padding: 20px;
+  margin-right: 20px;
+  background-color: white;
+  width: 30%; /* Default width for larger screens */
+  margin-bottom: 20px; /* Bottom margin for spacing */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 0px solid rgba(255, 255, 255, 0.93);
+}
+.Our{
+  text-align: center;
+  color: white;
+}
+.Process1 p{
+  color: black;
+}
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .Process {
+    margin-left: 50px; /* Reduced margin on tablet */
+    margin-right: 20px; /* Add some margin on the right side */
+    flex-direction: column; /* Stack items vertically on tablets */
+    width: 95%; /* Make the width 95% on tablet screens */
+  }
+
+  .Process1 {
+    width: 45%; /* Increase width for tablet screens */
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .Process {
+    margin-left: 20px; /* Smaller left margin on mobile */
+    margin-right: 20px; /* Add some right margin on mobile */
+    flex-direction: column; /* Stack items vertically on mobile */
+    width: 100%; /* Full width on mobile */
+  }
+
+  .Process1 {
+    width: 96%; /* Full width on mobile */
+    margin-right: 0; /* Remove right margin on mobile */
+  }
+
+  .Our {
+    margin-left: 20px; /* Reduce margin on smaller screens */
+  }
+}
+
+/* Very Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .Process {
+    margin-left: 10px; /* Further reduce the left margin */
+    margin-right: 10px; /* Further reduce the right margin */
+    flex-direction: column; /* Ensure items stack vertically */
+    width: 100%; /* Ensure it takes the full width */
+  }
+
+  .Process1 {
+    width: 96%; /* Full width on very small screens */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .Our {
+    margin-left: 10px; /* Further reduce margin for very small screens */
+  }
+}
+
+/* Extra Small Mobile (max-width: 360px) */
+@media (max-width: 360px) {
+  .Process {
+    margin-left: 5px; /* Ultra small left margin */
+    margin-right: 15px; /* Ultra small right margin */
+    flex-direction: column; /* Ensure items stack vertically */
+    width: 100%; /* Ensure full width on extra small screens */
+  }
+
+  .Process1 {
+    width: 96%; /* Full width on very small screens */
+    margin-right: 20px; /* Remove right margin */
+  }
+
+  .Our {
+    margin-left: 5px; /* Ultra small margin on extra small screens */
+  }
+}

@@ -1,0 +1,206 @@
+.mission-card {
+  background: rgba(255, 255, 255, 0.149);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 0px solid rgba(255, 255, 255, 0.93);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  height: 310px;
+  text-align: center;
+
+  font-family: "Arial", sans-serif;
+  margin-right: 80px ;
+}
+
+.mission-card h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.mission-card p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.learn-more-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.learn-more-btn:hover {
+  background-color: #660000;
+}
+
+.video1 {
+  width: 700px;
+  height: auto;
+  margin: 20px auto;
+  margin-right: 50px;
+  display: block;
+  border-radius: 20px;
+}
+
+.MainCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -20px;
+  
+}
+
+/* Responsive Styles */
+
+/* 1024px screen width (Small desktop/tablet) */
+@media (max-width: 1024px) {
+  .mission-card {
+    width: 80%;
+    height: auto;
+  }
+
+  .mission-card h1 {
+    font-size: 22px;
+  }
+
+  .mission-card p {
+    font-size: 16px;
+  }
+
+  .learn-more-btn {
+    font-size: 13px;
+    padding: 9px 18px;
+  }
+
+  .video1 {
+    width: 90%;
+  }
+}
+
+/* 768px screen width (Tablet screens) */
+@media (max-width: 768px) {
+  .mission-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .mission-card h1 {
+    font-size: 20px;
+  }
+
+  .mission-card p {
+    font-size: 14px;
+  }
+
+  .learn-more-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .video1 {
+    width: 90%;
+  }
+}
+
+/* 576px screen width (Large mobile/tablet) */
+@media (max-width: 576px) {
+  .mission-card {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .mission-card h1 {
+    font-size: 18px;
+  }
+
+  .mission-card p {
+    font-size: 13px;
+  }
+
+  .learn-more-btn {
+    font-size: 11px;
+    padding: 7px 14px;
+  }
+
+  .video1 {
+    width: 100%;
+  }
+
+  .MainCard {
+    flex-direction: column;
+  }
+}
+
+/* 480px screen width (Mobile screens) */
+@media (max-width: 480px) {
+  .mission-card {
+    width: 95%;
+    margin: 15px auto;
+  }
+
+  .mission-card h1 {
+    font-size: 16px;
+  }
+
+  .mission-card p {
+    font-size: 12px;
+  }
+
+  .learn-more-btn {
+    font-size: 10px;
+    padding: 6px 12px;
+  }
+
+  .video1 {
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+
+  .MainCard {
+    flex-direction: column;
+  }
+}
+
+/* 360px screen width (Very small mobile screens) */
+@media (max-width: 360px) {
+  .mission-card {
+    width: 95%;
+    
+  }
+
+  .mission-card h1 {
+    font-size: 14px;
+  }
+
+  .mission-card p {
+    font-size: 10px;
+  }
+
+  .learn-more-btn {
+    font-size: 9px;
+    padding: 5px 10px;
+  }
+
+  .video1 {
+    width: 93%;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+
+  .MainCard {
+    flex-direction: column;
+    
+  }
+}
