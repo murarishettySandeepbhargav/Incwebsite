@@ -62,7 +62,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-us-container {
-    padding: 15px;
+    padding: 10px;
   }
 
   .form-group input,

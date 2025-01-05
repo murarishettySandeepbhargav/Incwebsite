@@ -46,7 +46,8 @@
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
   .stats-container {
-    gap: 15px; /* Reduced gap for smaller screens */
+    gap: 10px; /* Reduced gap for smaller screens */
+    width: 95%;
   }
 
   .stats-card {

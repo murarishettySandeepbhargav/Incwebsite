@@ -28,7 +28,7 @@
   font-size: 16px;
   line-height: 1.8;
   margin-bottom: 20px;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-weight: 600;
 }
 
@@ -63,6 +63,7 @@
 
   .digital-card p {
     font-size: 14px; /* Adjust paragraph size */
+    color: white;
   }
 
   .know-more-btn {
@@ -73,8 +74,8 @@
 /* Mobile View (max-width: 768px) */
 @media (max-width: 768px) {
   .digital-card {
-    margin-left: 10px; /* Smaller left margin for mobile */
-    max-width: 100%; /* Make the card full-width on mobile */
+    margin-left: 30px; /* Smaller left margin for mobile */
+    max-width: 90%; /* Make the card full-width on mobile */
   }
 
   .digital-card h1 {
@@ -83,6 +84,9 @@
 
   .digital-card p {
     font-size: 14px; /* Adjust paragraph size */
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    opacity: 100%;
   }
 
   .know-more-btn {

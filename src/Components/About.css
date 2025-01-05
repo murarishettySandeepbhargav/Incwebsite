@@ -49,7 +49,8 @@
   }
 
   .Abouttitle {
-    font-size: 55px; /* Adjust title size for tablets */
+    font-size: 20px; /* Adjust title size for tablets */
+    width: 80%;
   }
 
   .Aboutimg {
@@ -71,7 +72,7 @@
   }
 
   .Abouttitle {
-    font-size: 40px; /* Further reduce title size for smaller screens */
+    font-size: 20px; /* Further reduce title size for smaller screens */
   }
 
   .Aboutimg {
@@ -93,7 +94,7 @@
   }
 
   .Abouttitle {
-    font-size: 35px; /* Smaller title size for small mobile screens */
+    font-size: 18px; /* Smaller title size for small mobile screens */
   }
 
   .Aboutimg {
@@ -138,7 +139,7 @@
   }
 
   .Abouttitle {
-    font-size: 25px; /* Ultra small title for tiny screens */
+    font-size: 15px; /* Ultra small title for tiny screens */
   }
 
   .Aboutimg {

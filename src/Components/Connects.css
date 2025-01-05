@@ -2,7 +2,7 @@
 .connects-container {
   padding: 20px;
   font-family: Arial, sans-serif;
-  background: rgb(0,0,0)
+  background: rgb(0, 0, 0);
 }
 
 /* Title Section */
@@ -10,7 +10,7 @@
   text-align: center;
   margin: 40px 0;
 }
-.locate{
+.locate {
   color: black;
 }
 
@@ -61,7 +61,7 @@
   margin: 20px auto;
   max-width: 800px;
 }
-.labs-description p{
+.labs-description p {
   color: white;
 }
 
@@ -185,10 +185,10 @@
   .connect {
     font-size: 1.5rem; /* Adjust for very small screens */
   }
-.Connectinner{
-  width: 90%;
-  font-size: 15px
-}
+  .Connectinner {
+    width: 90%;
+    font-size: 15px;
+  }
   .labs-description {
     font-size: 0.85rem;
     padding: 0 10px;

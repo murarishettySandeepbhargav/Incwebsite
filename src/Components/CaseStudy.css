@@ -126,23 +126,25 @@ h1 {
 /* Responsive Styles (for arrows as well) */
 @media (max-width: 1024px) {
   .slick-arrow {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
   }
   .carousel-containerS {
     max-width: 1000px; /* Adjust max-width for smaller screens */
-    padding: 40px 10px; /* Adjust padding for better fit */
+    padding: 50px 80px; /* Adjust padding for better fit */
+    margin-left: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .slick-arrow {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
-  .carousel-containerS {
+  .carousel-containerS{
     max-width: 90%; /* Make the carousel container more flexible */
-    padding: 30px 10px; /* Reduce padding */
+    padding: 30px 60px; /* Reduce padding */
+    margin-left: 20px;
   }
 }
 
@@ -153,7 +155,8 @@ h1 {
   }
   .carousel-containerS {
     max-width: 85%; /* Adjust max-width */
-    padding: 20px 5px; /* Reduce padding */
+    padding: 20px 20px; /* Reduce padding */
+    margin-right: 20px;
   }
 }
 
@@ -163,8 +166,10 @@ h1 {
     height: 20px;
   }
   .carousel-containerS {
-    max-width: 90%; /* Increase flexibility */
-    padding: 30px 50px; /* Adjust padding for mobile screens */
+    max-width: 100%; /* Increase flexibility */
+    padding: 30px 70px; /* Adjust padding for mobile screens */
+    color: white;
+    font-weight: 100;
   }
 }
 
@@ -175,6 +180,8 @@ h1 {
   }
   .carousel-containerS {
     max-width: 98%; /* Adjust max-width for very small screens */
-    padding: 30px 50px; /* Further reduce padding */
+    padding: 30px 60px; /* Further reduce padding */
+   
   }
 }
+

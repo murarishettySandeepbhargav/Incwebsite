@@ -8,8 +8,8 @@
 .features {
   display: flex;
   justify-content: space-around;
-  flex-wrap: nowrap; /* Allow wrapping for smaller screens */
-  gap: 20px; /* Space between items */
+  flex-wrap: wrap; /* Allow items to wrap */
+  gap: 10px; /* Space between feature boxes */
 }
 
 /* Feature Box Styles */
@@ -17,13 +17,12 @@
   width: 400px;
   margin: 10px;
   text-align: center;
- /* From https://css.glass */
-background: rgba(255, 255, 255, 0.32);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(1.4px);
--webkit-backdrop-filter: blur(1.4px);
-border: 1px solid rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.32); /* Glass effect */
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 1px solid rgba(255, 255, 255, 0.02);
   padding: 35px;
   transition: box-shadow 0.3s ease; /* Smooth hover effect */
 }
@@ -37,7 +36,6 @@ border: 1px solid rgba(255, 255, 255, 0.02);
   color: orange;
   mix-blend-mode: darken;
 }
-
 
 h3 {
   margin: 10px 0;
@@ -54,11 +52,11 @@ p {
 /* For Large Screens (1024px and above) */
 @media (max-width: 1024px) {
   .features {
-    justify-content: space-evenly; /* Even space distribution */
+    justify-content: space-evenly; /* Even spacing */
   }
-  
+
   .feature {
-    width: 350px; /* Slightly smaller feature boxes */
+    width: 350px;
     padding: 30px;
   }
 
@@ -74,12 +72,13 @@ p {
 /* For Medium Screens (768px and below) */
 @media (max-width: 768px) {
   .features {
-    justify-content: center; /* Center the items */
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
   }
 
   .feature {
-    width: 300px; /* Reduce feature box width */
-    padding: 25px;
+    width: 100%; /* Full width */
+    padding: 20px;
   }
 
   h3 {
@@ -94,16 +93,17 @@ p {
 /* For Small Screens (576px and below) */
 @media (max-width: 576px) {
   .features {
-    justify-content: center; /* Center content */
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
   }
 
   .feature {
-    width: 240px; /* Even smaller width for feature boxes */
+    width: 100%; /* Full width */
     padding: 20px;
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   p {
@@ -114,41 +114,41 @@ p {
 /* For Very Small Screens (480px and below) */
 @media (max-width: 480px) {
   .features {
-    flex-direction: column; /* Stack feature boxes vertically */
-    align-items: center; /* Center the items */
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
   }
 
   .feature {
-    width: 100%; /* Full width on mobile */
+    width: 100%; /* Full width */
     padding: 20px;
   }
 
   h3 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   p {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
 /* For Extra Small Screens (360px and below) */
 @media (max-width: 360px) {
   .features {
-    flex-direction: column; /* Stack feature boxes vertically */
-    align-items: center; /* Center the items */
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
   }
 
   .feature {
-    width: 100%; /* Full width on very small screens */
+    width: 100%; /* Full width */
     padding: 10px;
   }
 
   h3 {
-    font-size: 12px; /* Smaller text size */
+    font-size: 12px;
   }
 
   p {
-    font-size: 10px; /* Smaller paragraph text */
+    font-size: 10px;
   }
 }

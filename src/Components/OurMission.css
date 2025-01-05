@@ -66,8 +66,9 @@
 /* 1024px screen width (Small desktop/tablet) */
 @media (max-width: 1024px) {
   .mission-card {
-    width: 80%;
+    width: 100%;
     height: auto;
+   margin-left: 55px;
   }
 
   .mission-card h1 {
@@ -93,6 +94,7 @@
   .mission-card {
     width: 90%;
     height: auto;
+   
   }
 
   .mission-card h1 {

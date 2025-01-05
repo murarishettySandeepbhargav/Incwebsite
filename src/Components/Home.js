@@ -23,14 +23,12 @@ const Home = () => {
 
         <OurMission></OurMission>
         <DigitalCard></DigitalCard>
-
         <PartnerCarousel></PartnerCarousel>
         <WhyShould></WhyShould>
         <Trending></Trending>
         <Testimonals></Testimonals>
-        <OurCustomers></OurCustomers>
-        {/*
-         */}
+        <OurCustomers></OurCustomers> 
+
       </div>
     </div>
   );

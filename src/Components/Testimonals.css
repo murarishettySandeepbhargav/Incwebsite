@@ -1,5 +1,5 @@
 .Testimonals {
-    margin-left: 140px;
+    margin-left: 40px;
     margin-top: 10px;
     text-align: center; /* Center text for better alignment on smaller screens */
   }
@@ -7,6 +7,7 @@
   .Test1 {
     font-size: 35px;
     font-weight: bolder;
+   
   
   }
   
@@ -14,7 +15,7 @@
   .Test2 {
     width: 650px;
     font-size: 20px;
-    margin: 0 auto; /* Center the text block */
+    margin-left: 405px; /* Center the text block */
     margin-bottom: 20px;
     color: white;
   }
@@ -44,8 +45,8 @@
     }
   
     .Test2 {
-      width: 80%; /* Increase width on smaller devices */
-      font-size: 18px; /* Slightly smaller font */
+      width: 60%; /* Increase width on smaller devices */
+      font-size: 20px; /* Slightly smaller font */
       margin: 20px auto; /* Center the content */
     }
   
@@ -67,8 +68,8 @@
     }
   
     .Test2 {
-      width: 90%; /* Occupy more width on mobile */
-      font-size: 16px; /* Smaller font for readability */
+      width: 80%; /* Occupy more width on mobile */
+      font-size: 18px; /* Smaller font for readability */
       margin: 20px auto;
     }
   

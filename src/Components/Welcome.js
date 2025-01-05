@@ -27,7 +27,16 @@ const Welcome = () => {
     ),
     responsive: [
       {
-        breakpoint: 992,
+        breakpoint: 1200, // Large screens
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          draggable: true,
+         
+        },
+      },
+      {
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,

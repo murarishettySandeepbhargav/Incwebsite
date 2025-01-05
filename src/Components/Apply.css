@@ -93,7 +93,7 @@ textarea {
 @media (max-width: 1024px) {
   .apply-form-container {
     max-width: 80%; /* Adjust width for tablet view */
-    margin-top: 80px; /* Adjust margin for better spacing */
+    margin-top: 10px; /* Adjust margin for better spacing */
     padding: 25px; /* Slightly reduce padding */
   }
 
@@ -110,7 +110,7 @@ textarea {
 @media (max-width: 768px) {
   .apply-form-container {
     max-width: 90%; /* Increase container width on mobile */
-    margin-top: 70px; /* Adjust top margin for mobile */
+    margin-top: 10px; /* Adjust top margin for mobile */
     padding: 20px; /* Reduce padding */
   }
 
@@ -133,7 +133,7 @@ textarea {
 @media (max-width: 576px) {
   .apply-form-container {
     max-width: 95%; /* Make the form container almost full width */
-    margin-top: 60px; /* Further reduce top margin */
+    margin-top: 10px; /* Further reduce top margin */
   }
 
   .apply-form-container h2 {
@@ -155,7 +155,7 @@ textarea {
 @media (max-width: 480px) {
   .apply-form-container {
     max-width: 92%; /* Form container takes up most of the screen */
-    margin-top: 50px; /* Slightly reduce top margin */
+    margin-top: 10px; /* Slightly reduce top margin */
     padding: 16px; /* Reduce padding further */
   }
 
@@ -179,7 +179,7 @@ textarea {
 @media (max-width: 360px) {
   .apply-form-container {
     max-width: 95%; /* Make the form container as wide as possible */
-    margin-top: 40px; /* Further reduce the top margin */
+    margin-top: 10px; /* Further reduce the top margin */
   }
 
   .apply-form-container h2 {

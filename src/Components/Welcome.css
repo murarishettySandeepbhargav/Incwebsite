@@ -103,7 +103,7 @@
 /* 1024px (Tablet Landscape) */
 @media (max-width: 1024px) {
   .card-slider-container {
-    padding-left: 120px;
+    padding-left: 30px;
   }
 
   .card-img-top {
@@ -140,7 +140,7 @@
 /* 768px (Tablet Portrait) */
 @media (max-width: 768px) {
   .card-slider-container {
-    padding-left: 60px;
+    padding-left: 10px;
   }
 
   .card-img-top {
@@ -177,7 +177,7 @@
 /* 576px (Small Tablets or Large Phones) */
 @media (max-width: 576px) {
   .card-slider-container {
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   .card-img-top {

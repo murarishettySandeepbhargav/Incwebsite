@@ -70,12 +70,13 @@
   .Partner {
     margin-top: 100px; /* Reduced margin for smaller screens */
     width: 90%;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 
   .partner-slider .slide img {
     width: 300px; /* Adjust image size */
     height: 250px; /* Maintain aspect ratio */
+    padding: 40px;
   }
 
   .our {

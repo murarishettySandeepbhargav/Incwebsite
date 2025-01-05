@@ -31,7 +31,7 @@
   .Process {
     margin-left: 50px; /* Reduced margin on tablet */
     margin-right: 20px; /* Add some margin on the right side */
-    flex-direction: column; /* Stack items vertically on tablets */
+    flex-direction: row; /* Stack items vertically on tablets */
     width: 95%; /* Make the width 95% on tablet screens */
   }
 
@@ -45,7 +45,7 @@
   .Process {
     margin-left: 20px; /* Smaller left margin on mobile */
     margin-right: 20px; /* Add some right margin on mobile */
-    flex-direction: column; /* Stack items vertically on mobile */
+    flex-direction: row; /* Stack items vertically on mobile */
     width: 100%; /* Full width on mobile */
   }
 
@@ -63,7 +63,7 @@
 @media (max-width: 480px) {
   .Process {
     margin-left: 10px; /* Further reduce the left margin */
-    margin-right: 10px; /* Further reduce the right margin */
+    margin-right: 15px; /* Further reduce the right margin */
     flex-direction: column; /* Ensure items stack vertically */
     width: 100%; /* Ensure it takes the full width */
   }

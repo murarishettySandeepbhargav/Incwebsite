@@ -50,7 +50,6 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
   margin-top: 110px;
- 
 }
 
 .dot {
@@ -98,6 +97,46 @@ body {
 /* Responsive Styles */
 
 /* Tablet and smaller screens */
+@media (max-width: 1024px) {
+  .containers {
+  margin-left: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .digital-card-container {
+    flex-direction: column; /* Stack content vertically */
+    padding: 30px;
+    margin-left: 40px;
+    width: 93%;
+  }
+
+  .content {
+    max-width: 100%; /* Expand content to full width */
+    text-align: center; /* Center align text for better readability */
+  }
+
+  h1 {
+    font-size: 2rem; /* Reduce font size */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .read-more-btn {
+    font-size: 0.9rem; /* Reduce button font size */
+    padding: 8px 16px;
+  }
+
+  .video-container {
+    max-width: 80%; /* Video takes full width */
+    margin-top: 20px; /* Add spacing above the video */
+  }
+
+  .video {
+    max-width: 40%; /* Adjust video size for smaller screens */
+  }
+}
 @media (max-width: 768px) {
   .digital-card-container {
     flex-direction: column; /* Stack content vertically */
