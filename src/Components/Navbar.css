@@ -74,7 +74,7 @@ body {
 }
 /* Social container styles */
 .social {
-  margin-top: 150px;
+  margin-top: 10px;
   padding-left: 60px;
   display: flex;
   flex-direction: row; /* Ensures icons are stacked vertically */
@@ -141,8 +141,8 @@ body {
     font-size: 0.8rem;
   }
   .social {
-    padding-top: 80px;
-    margin-left: 30px;
+    padding-top: 10px;
+    margin-left: 10px;
   }
   .icon {
     height: 35px;
@@ -170,7 +170,7 @@ body {
     font-size: 1.1rem;
   }
   .social {
-    padding-top: 70px;
+    padding-top: 10px;
     margin-left: 20px;
   }
   .iconinsta {
