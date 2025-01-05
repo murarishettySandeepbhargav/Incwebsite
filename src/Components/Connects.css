@@ -46,6 +46,7 @@
   height: 500px;
   width: 100%;
   object-fit: cover; /* Ensures the image covers the area */
+  margin-top: 62px;
 }
 
 .Connectpara {
